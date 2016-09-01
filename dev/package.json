@@ -1,0 +1,19 @@
+{
+  "name": "easyjob",
+  "version": "1.0.0",
+  "description": "Work for daokoudai.com",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-uglify": "^2.0.0",
+    "jade": "^1.11.0",
+    "webpack": "^1.13.2"
+  },
+  "scripts": {
+    "test": "go"
+  },
+  "author": "Hiro",
+  "license": "ISC"
+}
