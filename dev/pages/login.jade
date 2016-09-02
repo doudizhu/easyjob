@@ -1,33 +1,31 @@
 doctype html
 html
 	head
+		meta(charset="utf-8")
 		meta(name="viewport",content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0")
 		title easyjob for you!
 		link(rel='stylesheet',href='../css/vender/semantic/semantic.min.css')
 		style.
-			body{background-color: #DADADA;}
-			.column{padding:0 30px !important;}
+			body{background-color: #fefefe;}
+			.column{max-width:600px;padding:0 30px !important;}
 			.grid{height:100%;}
 	body
 		.ui.middle.aligned.center.aligned.grid
 			.column
 				h2.ui.teal.image.header
-					img.image(src='assets/images/logo.png')
-					.content Log-in to your account
+					img.image(src='../images/logo.png')
+					.content 用户登录
 				form.ui.large.form
-					.ui.stacked.segment
+					.ui.segment
 						.field
 							.ui.left.icon.input
 								i.user.icon
-								input(type='text', name='email', placeholder='E-mail address')
+								input(name='email', placeholder='用户名')
 						.field
 							.ui.left.icon.input
 								i.lock.icon
-								input(type='password', name='password', placeholder='Password')
-						.ui.fluid.large.teal.submit.button Login
+								input(type='password', name='password', placeholder='密码')
+						.ui.fluid.large.teal.submit.button 登录
 					.ui.error.message
-				.ui.message
-					|New to us ? 
-					a(href='#') Sign Up
 		script(src='../js/vender/jquery-1.11.0.min.js')
 		script(src='../js/vender/semantic.min.js')
